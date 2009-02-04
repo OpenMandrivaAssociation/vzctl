@@ -25,7 +25,7 @@
 Summary: OpenVZ containers control utility
 Name: vzctl
 Version: 3.0.23
-Release: %mkrel 1
+Release: %mkrel 2
 License: GPLv2
 Group: System/Kernel and hardware
 Source: http://download.openvz.org/utils/%{name}/%{version}/src/%{name}-%{version}.tar.bz2
@@ -40,7 +40,6 @@ Requires: ed
 Requires: grep
 Requires: vzquota >= 2.7.0-4
 Requires: fileutils
-Requires: vzctl-lib = %{version}-%{release}
 Requires: tar
 Requires: chkconfig
 # requires for vzmigrate purposes
