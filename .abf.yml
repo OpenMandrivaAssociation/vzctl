@@ -1,2 +1,3 @@
 sources:
-  "vzctl-3.0.23.tar.bz2:"	b94545dd5608bb48389abcb93e3fc8c91141461a
+  "vzctl-3.0.23.tar.bz2": b94545dd5608bb48389abcb93e3fc8c91141461a
+  vzctl-4.1.tar.bz2: 64598fbca19e114564758e3f199264fe0f77de7e
