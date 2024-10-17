@@ -30,7 +30,7 @@ License: GPLv2+
 Group: System/Kernel and hardware
 Source0: http://download.openvz.org/utils/%{name}/%{version}/src/%{name}-%{version}.tar.bz2
 #Requires: vzkernel
-URL: http://openvz.org/
+URL: https://openvz.org/
 # these reqs are for vz helper scripts
 BuildRequires:	pkgconfig(libcgroup)
 BuildRequires:	pkgconfig(libxml-2.0)
