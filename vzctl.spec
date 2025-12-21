@@ -32,6 +32,7 @@ Source0: http://download.openvz.org/utils/%{name}/%{version}/src/%{name}-%{versi
 #Requires: vzkernel
 URL: https://openvz.org/
 # these reqs are for vz helper scripts
+BuildRequires:	make
 BuildRequires:	pkgconfig(libcgroup)
 BuildRequires:	pkgconfig(libxml-2.0)
 Requires: bash
